@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'mw-app',
-  template: '<h1>My App</h1><p>Keeping track of the media I want to watch</p>'
+  templateUrl: 'app/app.component.html',
+  styleUrls: ['app/app.component.css']
 })
-export class AppComponent{}
+export class AppComponent { }

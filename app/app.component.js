@@ -21,7 +21,8 @@ System.register(["@angular/core"], function (exports_1, context_1) {
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'mw-app',
-                        template: '<h1>My App</h1><p>Keeping track of the media I want to watch</p>'
+                        templateUrl: 'app/app.component.html',
+                        styles: ["\n    h1 {color: #DC322F;}\n  "]
                     })
                 ], AppComponent);
                 return AppComponent;

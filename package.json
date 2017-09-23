@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf app/**/*.js app/**/*.js.map",
-    "tsc": "tsc -w",
+    "tsc": "tsc",
     "tsc:w": "tsc -w",
     "lite": "lite-server",
     "prestart": "npm run clean",
-    "start": "tsc && concurrently \"tsc -w\" \"lite-server\""
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" "
   },
   "author": "Nathan Pickard <nathan.pickard87@gmail.com>",
   "license": "ISC",
