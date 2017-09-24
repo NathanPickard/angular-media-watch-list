@@ -22,7 +22,7 @@ System.register(["@angular/core"], function (exports_1, context_1) {
                     core_1.Component({
                         selector: 'mw-app',
                         templateUrl: 'app/app.component.html',
-                        styles: ["\n    h1 {color: #DC322F;}\n  "]
+                        styleUrls: ['app/app.component.css']
                     })
                 ], AppComponent);
                 return AppComponent;
