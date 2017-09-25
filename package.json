@@ -28,8 +28,8 @@
     "zone.js": "^0.8.17"
   },
   "devDependencies": {
-    "@types/core-js": "^0.9.43",
-    "@types/node": "^8.0.30",
+    "@types/core-js": "0.9.34",
+    "@types/node": "6.0.41",
     "concurrently": "^3.5.0",
     "lite-server": "^2.3.0",
     "rimraf": "^2.6.2",

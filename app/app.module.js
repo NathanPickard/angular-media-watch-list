@@ -1,4 +1,4 @@
-System.register(["@angular/core", "@angular/platform-browser", "./app.component"], function (exports_1, context_1) {
+System.register(["@angular/core", "@angular/platform-browser", "./app.component", "./media-item.component"], function (exports_1, context_1) {
     "use strict";
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
         var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -7,7 +7,7 @@ System.register(["@angular/core", "@angular/platform-browser", "./app.component"
         return c > 3 && r && Object.defineProperty(target, key, r), r;
     };
     var __moduleName = context_1 && context_1.id;
-    var core_1, platform_browser_1, app_component_1, AppModule;
+    var core_1, platform_browser_1, app_component_1, media_item_component_1, AppModule;
     return {
         setters: [
             function (core_1_1) {
@@ -18,6 +18,9 @@ System.register(["@angular/core", "@angular/platform-browser", "./app.component"
             },
             function (app_component_1_1) {
                 app_component_1 = app_component_1_1;
+            },
+            function (media_item_component_1_1) {
+                media_item_component_1 = media_item_component_1_1;
             }
         ],
         execute: function () {
@@ -30,7 +33,8 @@ System.register(["@angular/core", "@angular/platform-browser", "./app.component"
                             platform_browser_1.BrowserModule
                         ],
                         declarations: [
-                            app_component_1.AppComponent
+                            app_component_1.AppComponent,
+                            media_item_component_1.MediaItemComponent
                         ],
                         bootstrap: [
                             app_component_1.AppComponent
