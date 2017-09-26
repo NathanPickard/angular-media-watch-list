@@ -27,7 +27,7 @@ System.register(["@angular/core"], function (exports_1, context_1) {
                     this.hovering = true;
                 };
                 FavoriteDirective.prototype.onmouseleave = function () {
-                    this.hoering = false;
+                    this.hovering = false;
                 };
                 Object.defineProperty(FavoriteDirective.prototype, "mwFavorite", {
                     set: function (value) {
