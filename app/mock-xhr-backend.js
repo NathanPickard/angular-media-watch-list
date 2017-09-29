@@ -1,18 +1,18 @@
-System.register(["@angular/http", "rxjs/Observable"], function (exports_1, context_1) {
+System.register(['@angular/http', 'rxjs/Observable'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
-    var http_1, Observable_1, MockXHRBackend;
+    var http_1, Observable_1;
+    var MockXHRBackend;
     return {
-        setters: [
+        setters:[
             function (http_1_1) {
                 http_1 = http_1_1;
             },
             function (Observable_1_1) {
                 Observable_1 = Observable_1_1;
-            }
-        ],
-        execute: function () {
-            MockXHRBackend = /** @class */ (function () {
+            }],
+        execute: function() {
+            MockXHRBackend = (function () {
                 function MockXHRBackend() {
                     this._mediaItems = [
                         {
@@ -130,6 +130,6 @@ System.register(["@angular/http", "rxjs/Observable"], function (exports_1, conte
             }());
             exports_1("MockXHRBackend", MockXHRBackend);
         }
-    };
+    }
 });
 //# sourceMappingURL=mock-xhr-backend.js.map
